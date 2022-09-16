@@ -1,36 +1,55 @@
 
 *{
-    background-color:#99ffff;
-    color:black;
+    background-color:#1c1d25;
+    color:white;
 }
 
 .round{
     text-align: center;
     font-size: 100px;
+    
 }
 
 .images{
     width: 200px;
     height: 200px;
-    border: 2px black solid;
+    border: 2px white solid;
     margin: 20px;
     padding: 20px;
 
 }
+.images1:hover{
+    border: 2px coral solid;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0 0 0 / 2%);
+
+}
 .player1{
     text-align: center;
-    border: 2px black solid;
+    border: 2px white solid;
     border-radius: 10px;
+}
+.player1:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0 0 0 / 2%);
+
 }
 .player2{
     text-align: center;
-    border: 2px black solid;
+    border: 2px white solid;
     border-radius: 10px;
 }
 
 
 .score,.pick{
     font-size: 50px;
+}
+.score{
+    color: coral;
+}
+.picksCard{
+    color: white;
+    font-size: 80px;
 }
 
 .big-img{
@@ -53,4 +72,16 @@
     opacity: 0;
     visibility: hidden;
     font-size: 30px;
+    text-align: center;
+
+}
+.button{
+    border-radius: 10px;
+    background-color: coral;
+    border: 1px white solid;
+    margin: 5px;
+    padding: 10px;
+}
+.button:hover{
+    background-color: orangered;
 }
